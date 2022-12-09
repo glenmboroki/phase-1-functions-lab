@@ -23,12 +23,12 @@ distanceFromHqInFeet(50);
 console.log(num2);
 
 //CALCULATE DISTANCE TRAVELLED IN FEET.
-function distanceTaveledInFeet(start, destination) {
+function distanceTravelledInFeet(start, destination) {
     let num3 = Math.abs (destination-start)* 264;
     console.log(num3);
     return num3;
 }
-distanceTaveledInFeet(42, 45);
+distanceTravelledInFeet(42, 45);
 
 //CALCULATE FARE PRICES.
 function calculatesFarePrice(start, destination)
